@@ -1,0 +1,42 @@
+body
+{
+    background-color:rgb(235, 235, 42);
+}
+
+h1
+{
+    background-color: cornsilk;
+    color:rgb(255, 45, 45)
+}
+
+#sketch
+{
+    float: right;
+}
+
+canvas{
+    border: 5px rgb(85, 85, 235);
+    border-radius: 20px;
+    animation-name: mahendra;
+    animation-duration: 4s;
+    margin-top: 25px;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes mahendra
+{
+    to{box-shadow:5px 5px 38px rgb(6, 255, 6)}
+    from{box-shadow:5px 5px 38px red}
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+
+
+
+
